@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&ital,wght@0,100;1,100&display=swap');
+
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    background: #8A51FC;
+
+}
+
+.image-gif {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+main {
+    background: #F4F4F4;
+    width: 375px;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+    
+    
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font: size 14px;
+}
+
+select , input {
+    background: #ffffff;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #555555;
+    cursor: pointer;
+}
+
+button {
+    background: #772fd3;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #772fd3;
+    border-radius: 20px;
+    margin-top: 36px;
+    background: #ffffff;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-img {
+margin: 15px 0;
+}
+
+.currency-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+color: #777777;
+font-size: 14px;
+}
+
+.currency-value, .currency-value-to-convert{
+color: #555555;
+font-weight: 700;
+font-size: 20px;
+}
+
+@media screen and (max-width: 800px) { 
+    main {
+        width: 90%; /* Ajusta a largura do main */
+        padding: 30px 16px; /* Ajusta o padding para telas menores */
+    }
+
+    .image-gif {
+        width: 250px; /* Ajusta o tamanho da imagem gif */
+    }
+
+    select, input {
+        font-size: 14px; /* Diminui o tamanho da fonte nos campos */
+    }
+
+    button {
+        font-size: 16px; /* Ajusta o tamanho do botão */
+        height: 45px; /* Diminui a altura do botão */
+    }
+
+    section {
+        width: 100%; /* Garante que a section ocupe 100% da largura em telas menores */
+        padding: 8px;
+    }
+
+    .currency-box {
+        gap: 2px; /* Diminui o gap entre os elementos de moeda */
+    }
+
+    .currency-value, .currency-value-to-convert {
+        font-size: 18px; /* Diminui o tamanho da fonte nas moedas */
+    }
+}
+
+    @media screen and (max-width: 500px) {
+        main {
+            width: 95%; /* Aumenta a largura para 95% para dispositivos bem pequenos */
+            padding: 20px 12px; /* Reduz o padding */
+        }
+    
+        .image-gif {
+            width: 200px; /* Diminui ainda mais o tamanho da imagem */
+        }
+    
+        select, input {
+            font-size: 13px; /* Diminui a fonte */
+        }
+    
+        button {
+            font-size: 14px; /* Diminui o tamanho da fonte no botão */
+            height: 40px; /* Diminui a altura do botão */
+        }
+    
+        section {
+            width: 100%;
+            padding: 6px; /* Diminui o padding na section */
+        }
+    
+        .currency-box {
+            gap: 2px; /* Ajusta o espaçamento entre os elementos de moeda */
+        }
+    
+        .currency-value, .currency-value-to-convert {
+            font-size: 16px; /* Diminui o tamanho da fonte nas moedas */
+        }
+
+    }
+
+        @media screen and (max-width: 360px) {
+            main {
+                width: 95%; /* Mais largura para telas muito pequenas */
+                padding: 18px 10px; /* Reduz o padding para mais espaço */
+            }
+        
+            .image-gif {
+                width: 180px; /* Reduz a imagem para caber melhor na tela */
+            }
+        
+            select, input {
+                font-size: 12px; /* Diminui a fonte ainda mais */
+            }
+        
+            button {
+                font-size: 14px; /* Ajusta o tamanho do botão */
+                height: 38px; /* Diminui a altura do botão */
+            }
+        
+            section {
+                width: 100%;
+                padding: 5px; /* Reduz o padding da section */
+            }
+        
+            .currency-box {
+                gap: 1px; /* Diminui o gap */
+            }
+        
+            .currency-value, .currency-value-to-convert {
+                font-size: 14px; /* Diminui o tamanho das moedas */
+            }
+    
+        }
+
+    
+
+
+
+
