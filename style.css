@@ -106,107 +106,102 @@ font-weight: 700;
 font-size: 20px;
 }
 
+
+
 @media screen and (max-width: 800px) { 
     main {
-        width: 90%; /* Ajusta a largura do main */
-        padding: 30px 16px; /* Ajusta o padding para telas menores */
+        width: 85%; /* Ajuste menor para melhor responsividade */
+        padding: 25px 14px;
     }
 
     .image-gif {
-        width: 250px; /* Ajusta o tamanho da imagem gif */
+        width: 220px; /* Redução para melhor encaixe */
     }
 
     select, input {
-        font-size: 14px; /* Diminui o tamanho da fonte nos campos */
+        font-size: 15px;
     }
 
     button {
-        font-size: 16px; /* Ajusta o tamanho do botão */
-        height: 45px; /* Diminui a altura do botão */
+        font-size: 15px;
+        height: 42px;
     }
 
     section {
-        width: 100%; /* Garante que a section ocupe 100% da largura em telas menores */
-        padding: 8px;
+        width: 100%;
+        padding: 10px;
     }
 
     .currency-box {
-        gap: 2px; /* Diminui o gap entre os elementos de moeda */
+        gap: 3px;
     }
 
     .currency-value, .currency-value-to-convert {
-        font-size: 18px; /* Diminui o tamanho da fonte nas moedas */
+        font-size: 17px;
     }
 }
 
-    @media screen and (max-width: 500px) {
-        main {
-            width: 95%; /* Aumenta a largura para 95% para dispositivos bem pequenos */
-            padding: 20px 12px; /* Reduz o padding */
-        }
-    
-        .image-gif {
-            width: 200px; /* Diminui ainda mais o tamanho da imagem */
-        }
-    
-        select, input {
-            font-size: 13px; /* Diminui a fonte */
-        }
-    
-        button {
-            font-size: 14px; /* Diminui o tamanho da fonte no botão */
-            height: 40px; /* Diminui a altura do botão */
-        }
-    
-        section {
-            width: 100%;
-            padding: 6px; /* Diminui o padding na section */
-        }
-    
-        .currency-box {
-            gap: 2px; /* Ajusta o espaçamento entre os elementos de moeda */
-        }
-    
-        .currency-value, .currency-value-to-convert {
-            font-size: 16px; /* Diminui o tamanho da fonte nas moedas */
-        }
-
+@media screen and (max-width: 500px) {
+    main {
+        width: 92%;
+        padding: 18px 10px;
     }
 
-        @media screen and (max-width: 360px) {
-            main {
-                width: 95%; /* Mais largura para telas muito pequenas */
-                padding: 18px 10px; /* Reduz o padding para mais espaço */
-            }
-        
-            .image-gif {
-                width: 180px; /* Reduz a imagem para caber melhor na tela */
-            }
-        
-            select, input {
-                font-size: 12px; /* Diminui a fonte ainda mais */
-            }
-        
-            button {
-                font-size: 14px; /* Ajusta o tamanho do botão */
-                height: 38px; /* Diminui a altura do botão */
-            }
-        
-            section {
-                width: 100%;
-                padding: 5px; /* Reduz o padding da section */
-            }
-        
-            .currency-box {
-                gap: 1px; /* Diminui o gap */
-            }
-        
-            .currency-value, .currency-value-to-convert {
-                font-size: 14px; /* Diminui o tamanho das moedas */
-            }
-    
-        }
+    .image-gif {
+        width: 180px;
+    }
 
+    select, input {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 13px;
+        height: 38px;
+    }
+
+    section {
+        width: 100%;
+        padding: 7px;
+    }
+
+    .currency-value, .currency-value-to-convert {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    main {
+        width: 96%;
+        padding: 16px 8px;
+    }
+
+    .image-gif {
+        width: 160px;
+    }
+
+    select, input {
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 12px;
+        height: 36px;
+    }
+
+    section {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .currency-box {
+        gap: 1px;
+    }
+
+    .currency-value, .currency-value-to-convert {
+        font-size: 13px;
+    }
+}
     
 
 
