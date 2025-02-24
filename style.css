@@ -110,9 +110,8 @@ font-size: 20px;
 
 @media screen and (max-width: 800px) { 
     main {
-        width: 85%; /* Ajuste menor para melhor responsividade */
-        max-width: 400px;
-        padding: 25px 14px;
+        width: min(85%, 400px); /* Garante que não ultrapasse 400px */
+        padding: 20px 12px;
     }
 
     .image-gif {
@@ -144,9 +143,8 @@ font-size: 20px;
 
 @media screen and (max-width: 500px) {
     main {
-        width: 92%;
-        max-width: 380px;
-        padding: 18px 10px;
+        width: min(92%, 380px);
+        padding: 16px 10px;
     }
 
     .image-gif {
@@ -174,9 +172,8 @@ font-size: 20px;
 
 @media screen and (max-width: 360px) {
     main {
-        width: 96%;
-        max-width: 350px;
-        padding: 16px 8px;
+        width: min(96%, 350px);
+        padding: 14px 8px;
     }
 
     .image-gif {
